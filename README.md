@@ -1,14 +1,6 @@
 # propostasbrasil.gihub.io
-Projeto para publicar análise de dados das propostas dos candidatos à presidência do Brasil.
+Projeto para publicar análise de dados das propostas dos candidatos à presidência do Brasil das eleições de 2022.
 _UI Powered by: [xtreme-react-lite](https://github.com/wrappixel/xtreme-react-lite)_
-
-## Kick-off
-- [x] Escolha de template;
-- [x] Iniciar React app;
-- [x] deploy github.io;
-- [ ] Setup de template no app;
-- [ ] Testes - commit inicial;
-
 
 ## Available Scripts
 
