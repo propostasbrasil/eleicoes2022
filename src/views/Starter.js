@@ -1,6 +1,6 @@
 import { Col, Row } from "reactstrap";
 import Feeds from "../components/dashboard/Feeds";
-import ProjectTables from "../components/dashboard/ProjectTable";
+import PreCandidatos from "../components/dashboard/PreCandidatos";
 import TopCards from "../components/dashboard/TopCards";
 import Blog from "../components/dashboard/Blog";
 import bg1 from "../assets/images/bg/bg1.jpg";
@@ -52,10 +52,10 @@ const Starter = () => {
         <Col sm="6" lg="3">
           <TopCards
             bg="bg-light-success text-success"
-            title="Profit"
-            subtitle="Yearly Earning"
-            earning="$21k"
-            icon="bi bi-wallet"
+            title="Primeiro Debate"
+            subtitle="Próx. Debate: Band"
+            earning="04 ago 2022"
+            icon="bi bi-megaphone"
           />
         </Col>
         <Col sm="6" lg="3">
@@ -88,17 +88,17 @@ const Starter = () => {
       </Row>
       {/***Sales & Feed***/}
       <Row>
-        <Col sm="6" lg="6" xl="7" xxl="8">
+        <Col sm="6" lg="6" xl="7" xxl="9">
           <Calendar />
         </Col>
-        <Col sm="6" lg="6" xl="5" xxl="4">
-          <Feeds />
+        <Col sm="6" lg="6" xl="5" xxl="3">
+          <PreCandidatos />
         </Col>
       </Row>
       {/***Table ***/}
       <Row>
-        <Col lg="12">
-          <ProjectTables />
+        <Col lg="5">
+          <PreCandidatos />
         </Col>
       </Row>
       {/***Blog Cards***/}
